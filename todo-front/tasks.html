@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Мои задачи</h1>
+        <nav>
+            <a href="profile.html">Мой профиль</a> |
+            <a href="index.html" id="logout">Выход</a>
+        </nav>
+    </header>
+    <main>
+        <form id="taskForm">
+            <label for="title">Заголовок:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="content">Содержание:</label>
+            <textarea id="content" name="content" required></textarea>
+            <button type="submit">Добавить задачу</button>
+        </form>
+        <ul id="taskList"></ul>
+    </main>
+    <footer>
+        <p>by treezyycraazyy</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
